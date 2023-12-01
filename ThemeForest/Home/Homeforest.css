@@ -1,0 +1,276 @@
+.Main-div-of-page {
+	background-image: url("https://kalanidhithemes.com/live-preview/landing-page/delici/images/bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Landing-page {
+	color: white;
+	font-weight: bold;
+    font-family: bolder;
+	padding-inline: 1rem;
+	font-size: 1.2rem;
+}
+
+.Landing-page-1{
+	text-decoration: none;
+}
+
+.Buy-now {
+	color: white;
+	font-weight: bold;
+    font-family: bolder;
+	padding-inline: 1rem;
+	font-size: 1.2rem;
+}
+
+.logo-2-buttons {
+	display: flex;
+	justify-content: space-between;
+	padding: 3.5rem;
+}
+
+.div-no-2 {
+	color: white;
+	font-family:cursive;
+	display: grid;
+	place-items: center;
+	font-weight: bolder;
+    font-size: large;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.view-demo-buy-now-btns {
+	width: 11rem;
+	margin: 1rem;
+	height: 3.5rem;
+	background-color: #E4C590;
+	color: darkblue;
+	border: none;
+	font-family: revert;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+.Restaurant-landing {
+	font-size: 4.2rem;
+}
+
+.\34 \+-pre-define {
+	font-size: 2rem;
+	font-family: initial;
+	text-decoration: none;
+}
+.view-btn-after-img {
+	height: 30rem;
+	width: 100%;
+	background-color: black;
+}
+.img-of-dishes {
+	height: 24rem;
+	display: grid;
+	place-items: center;
+	width: 78rem;
+    margin-inline-start: 0.7rem;
+}
+.div-home-page{
+    color: white;
+	font-family: cursive;
+	display: grid;
+	place-items: center;
+	font-weight: bolder;
+    font-size: large;
+    background-color: black;
+    height: auto;
+    width: 100%;
+
+}
+
+.div-inner-page{
+    color: white;
+	font-family: cursive;
+	display: grid;
+	place-items: center;
+	font-weight: bolder;
+    font-size: large;
+    background-color: black;
+    height: auto;
+    width: 100%;
+
+}
+
+.home-page-1-div-main{
+	height: auto;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 3rem;
+}
+.frst-pro-img{
+	height: 19rem;
+	width: 22rem;
+	background-size: 100% 100%;
+	/* text-align: center; */
+}
+
+.frst-pro-img:hover{
+	height: 19.2rem;
+	width: 22.2rem;
+	/* transition: all 1s; */
+	transform: scale(1.01);
+	padding-top: 0;
+	background: 95% 95%;
+
+	
+}
+
+
+.home-page-1-div {
+	height: 20rem;
+	width: 22.3rem;
+	
+	
+	/* border: 1px solid; */
+}	
+
+.heading-after-pro-img {
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+}	
+
+.box-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(21rem,1fr));
+}
+
+.Purchase-Now-btn {
+	width: 11rem;
+	margin: 1rem;
+	height: 3.5rem;
+	background-color: #edeae3;
+	color: darkblue;
+	border: none;
+	font-family: revert;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.footer-main-div {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.hr-mini-line {
+	height: 0.2rem;
+	width: 4rem;
+	background-color: whitesmoke;
+	outline: inset;
+	margin: auto;
+	margin-bottom: 3.5rem;
+}
+
+abbr {
+	font-size: larger;
+	color: rgb(251, 206, 5);
+}
+abbr:hover{
+	color: rgb(4, 235, 243);
+	
+}
+
+.copy-right {
+	padding-block: 4rem;
+}
+
+/* abbr title::before{
+	font-size: 2rem;
+	background-color: black;
+	color: wheat;
+}
+
+abbr title::after{
+	font-size: 10rem;
+	color: aquamarine;
+
+}	 */
+
+abbr{
+	position: relative;
+}
+
+abbr:hover::after{
+	position: absolute;
+	background-color: aliceblue;
+	padding: 1em;
+	bottom: 100%;
+	left: 100%;
+	display: block;
+	content: attr(title);
+	color: blue;
+	border-radius: 2rem	;
+
+}
+
+.Purchase-Now-btn:hover {
+	background: black;
+	color: wheat;
+	font-size: larger;
+	border: 1px solid;
+	transition-duration: 1s;
+}
+.view-demo-buy-now-btns:hover {
+	background: #6c3333;
+	height: 3.5rem;
+	color: #edeae3;
+	font-size: 0.9rem;
+	border: 1px solid;
+	transition-duration: 1s;
+	transform-origin: linear;
+	width: 11rem;
+}
+
+.Landing-page:hover {
+	color: aquamarine;
+	transition-duration: 500ms;
+	/* border-bottom: 2px solid turquoise; */
+	text-decoration: underline;
+	text-decoration-color: rgb(246, 58, 1);
+	font-size: 1.2rem;
+	transition: linear;
+	transition-property: width;
+}
+
+.Buy-now:hover {
+	color: aquamarine;
+	transition-duration: 500ms;
+	text-decoration: underline;
+	text-decoration-color: rgb(246, 58, 1);
+	/* border-bottom: 2px solid turquoise; */
+	font-size: 1.2rem;
+
+}
+
+.Landing-page:active{
+	color: coral;
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+}
+
+.Buy-now:active {
+	color: coral;
+	text-decoration: underline;
+	text-decoration-color: aliceblue;
+}
+
+.logo-navbar-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 25rem;
+	width: 100%;
+}
+
+.image-layer{
+	background-image: url(https://kalanidhithemes.com/live-preview/landing-page/delici/all-demo/Delici-Defoult/images/main-slider/slider-3.jpg);
+}
